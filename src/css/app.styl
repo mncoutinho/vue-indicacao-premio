@@ -1,0 +1,242 @@
+// app global css
+
+a {
+  text-decoration: none;
+  color: #3B68B5;
+  font-size: 13px;
+}
+
+
+.piped span:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.text-piped span:after {
+  content: "|";
+  margin: 0 10px;
+}
+.text-piped span:last-child:after {
+  content: '';
+  margin: 0 10px;
+}
+
+label {
+  font-size: 9px;
+  font-weight: bold;
+  color: #1D5393;
+}
+
+span {
+  font-size: 12px;
+}
+.q-table th {
+    color: #333131;
+    font-size: 9px;
+}
+.table-view {
+  font-family: 'Source Sans Pro','Helvetica Neue',Arial,sans-serif;
+  margin-bottom: 10px;
+}
+
+.q-table thead, .q-table tr, .q-table th, .q-table td {
+    border-color:#fff;
+}
+.q-table-bottom {
+    border-top: 0;
+}
+
+.table-view td, .table-view th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.table-view td:nth-child(odd) {
+   font-size:11px;
+   font-weight:bold;
+   width: 20%;
+   text-align:right;
+ }
+
+.table-view td:nth-child(even) {
+  font-size:12px;
+ }
+
+.table-view th {
+  text-align: left;
+  background-color: #d9dadb;
+  color: #515151;
+  font-size: 12px;
+}
+
+.no-border-grid {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+.no-border-grid-dados-gerais {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+
+// cor externa do ícone do step
+.q-stepper-dot {
+  background-color: #fff;
+}
+
+// cor interna do ícone do step
+.q-stepper-dot span  {
+  color: gray;
+}
+
+// linha vertical entre um step e outro
+.q-stepper-dot:after {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+// borda do stepper
+.q-stepper {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+
+// dados gerais
+#label-view{
+    font-size: 12px;
+    color: #042040;
+}
+// span dados gerais
+#span-view{
+  margin-left: 10px;
+  color: #6b6262;
+}
+//modal telefone
+.icone > .q-field-icon{
+    font-size: 20px;
+    margin-top: 40px
+}
+
+// input dados gerais
+#input-view{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+// label interna dados gerais
+#internal-label{
+  color: #333131;
+}
+.q-card-title {
+    font-size:13px;
+    line-height: 0rem;
+  }
+
+.q-card {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #EEEEEE;
+  border-width: 1px;
+}
+.q-layout-footer {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  border-radius: 8px;
+}
+.q-layout-header {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+.modal-content {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  border-radius: 8px;
+}
+.q-btn {
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+.q-if-control {
+  font-size: 15px;
+}
+.q-if-label {
+  font-size: 12px;
+}
+.q-item {
+    font-size: 12px;
+    min-height: 25px;
+}
+.q-input-target {
+  font-size: 12px;
+}
+
+.q-field-icon {
+    font-size: 7px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+.q-tab-icon {
+    font-size: 18px;
+}
+
+.q-tab-label {
+    font-size: 12px;
+}
+
+.q-notifications div {
+    z-index: 9500;
+    border-radius: 6px;
+    opacity : 0.93
+
+}
+
+.q-notifications div .q-btn .q-focus-helper {
+  color: #303030;
+  opacity : 0.1
+}
+
+.text-bg-color-red {
+  color: #f00;
+}
+
+.innerbox
+{
+   max-width:700px; /* or whatever width you want. */
+   display: inline-block !important;
+}
+
+/* Preview */
+fieldset {
+  border-width: 1px;
+}
+label.preview {
+  color:black;
+  font-weight: normal;
+}
+#background-preview {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact !important;
+  }
+
+  @page {
+    size:A4 landscape;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+
+
+
